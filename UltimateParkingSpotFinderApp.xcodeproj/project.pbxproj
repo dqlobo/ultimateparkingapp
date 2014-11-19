@@ -1,0 +1,571 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD2BEB8719950B4000E5D4BB /* TimerStart.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2BEB8619950B4000E5D4BB /* TimerStart.m */; };
+		BD2BEB8B19955A7A00E5D4BB /* icon29.png in Resources */ = {isa = PBXBuildFile; fileRef = BD2BEB8819955A7A00E5D4BB /* icon29.png */; };
+		BD2BEB8C19955A7A00E5D4BB /* icon40.png in Resources */ = {isa = PBXBuildFile; fileRef = BD2BEB8919955A7A00E5D4BB /* icon40.png */; };
+		BD2BEB8D19955A7A00E5D4BB /* icon60.png in Resources */ = {isa = PBXBuildFile; fileRef = BD2BEB8A19955A7A00E5D4BB /* icon60.png */; };
+		BD60302D1992D66400C39A6A /* starttimer.png in Resources */ = {isa = PBXBuildFile; fileRef = BD60302C1992D66400C39A6A /* starttimer.png */; };
+		BD8666481992E0DC00241400 /* CountdownViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD8666471992E0DC00241400 /* CountdownViewController.m */; };
+		BD86664B1993A95800241400 /* MasterTimerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD86664A1993A95800241400 /* MasterTimerViewController.m */; };
+		BD86664D1993B3D300241400 /* cancel.png in Resources */ = {isa = PBXBuildFile; fileRef = BD86664C1993B3D300241400 /* cancel.png */; };
+		BD86664F1994031900241400 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD86664E1994031900241400 /* AudioToolbox.framework */; };
+		BD86FDED1918741B00F13E41 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD86FDEC1918741B00F13E41 /* Foundation.framework */; };
+		BD86FDEF1918741B00F13E41 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD86FDEE1918741B00F13E41 /* CoreGraphics.framework */; };
+		BD86FDF11918741B00F13E41 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD86FDF01918741B00F13E41 /* UIKit.framework */; };
+		BD86FDF71918741B00F13E41 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BD86FDF51918741B00F13E41 /* InfoPlist.strings */; };
+		BD86FDF91918741B00F13E41 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD86FDF81918741B00F13E41 /* main.m */; };
+		BD86FDFD1918741B00F13E41 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD86FDFC1918741B00F13E41 /* AppDelegate.m */; };
+		BD86FE001918741C00F13E41 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD86FDFE1918741C00F13E41 /* Main.storyboard */; };
+		BD86FE031918741C00F13E41 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD86FE021918741C00F13E41 /* ViewController.m */; };
+		BD86FE051918741C00F13E41 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD86FE041918741C00F13E41 /* Images.xcassets */; };
+		BD86FE0C1918741C00F13E41 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD86FE0B1918741C00F13E41 /* XCTest.framework */; };
+		BD86FE0D1918741C00F13E41 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD86FDEC1918741B00F13E41 /* Foundation.framework */; };
+		BD86FE0E1918741C00F13E41 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD86FDF01918741B00F13E41 /* UIKit.framework */; };
+		BD86FE161918741C00F13E41 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BD86FE141918741C00F13E41 /* InfoPlist.strings */; };
+		BD86FE181918741C00F13E41 /* UltimateParkingSpotFinderAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD86FE171918741C00F13E41 /* UltimateParkingSpotFinderAppTests.m */; };
+		BD86FE2219187E2B00F13E41 /* car.png in Resources */ = {isa = PBXBuildFile; fileRef = BD86FE2119187E2B00F13E41 /* car.png */; };
+		BD86FE26191883BD00F13E41 /* locator.png in Resources */ = {isa = PBXBuildFile; fileRef = BD86FE24191883BD00F13E41 /* locator.png */; };
+		BD86FE27191883BD00F13E41 /* timer.png in Resources */ = {isa = PBXBuildFile; fileRef = BD86FE25191883BD00F13E41 /* timer.png */; };
+		BD86FE2A1918840B00F13E41 /* TimerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD86FE291918840B00F13E41 /* TimerViewController.m */; };
+		BD86FE2C191896DF00F13E41 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD86FE2B191896DF00F13E41 /* MapKit.framework */; };
+		BD86FE2F1919228A00F13E41 /* Annotation.m in Sources */ = {isa = PBXBuildFile; fileRef = BD86FE2E1919228A00F13E41 /* Annotation.m */; };
+		BD86FE31191924F000F13E41 /* redcar.png in Resources */ = {isa = PBXBuildFile; fileRef = BD86FE30191924F000F13E41 /* redcar.png */; };
+		BDCEDD6B1992A427006E03CE /* findmyspot.png in Resources */ = {isa = PBXBuildFile; fileRef = BDCEDD691992A427006E03CE /* findmyspot.png */; };
+		BDCEDD6C1992A427006E03CE /* savemyspot.png in Resources */ = {isa = PBXBuildFile; fileRef = BDCEDD6A1992A427006E03CE /* savemyspot.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BD86FE0F1918741C00F13E41 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD86FDE11918741B00F13E41 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD86FDE81918741B00F13E41;
+			remoteInfo = UltimateParkingSpotFinderApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BD2BEB8519950B4000E5D4BB /* TimerStart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimerStart.h; sourceTree = "<group>"; };
+		BD2BEB8619950B4000E5D4BB /* TimerStart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimerStart.m; sourceTree = "<group>"; };
+		BD2BEB8819955A7A00E5D4BB /* icon29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon29.png; path = images/icon29.png; sourceTree = "<group>"; };
+		BD2BEB8919955A7A00E5D4BB /* icon40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon40.png; path = images/icon40.png; sourceTree = "<group>"; };
+		BD2BEB8A19955A7A00E5D4BB /* icon60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon60.png; path = images/icon60.png; sourceTree = "<group>"; };
+		BD60302C1992D66400C39A6A /* starttimer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = starttimer.png; path = images/starttimer.png; sourceTree = "<group>"; };
+		BD8666461992E0DC00241400 /* CountdownViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountdownViewController.h; sourceTree = "<group>"; };
+		BD8666471992E0DC00241400 /* CountdownViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountdownViewController.m; sourceTree = "<group>"; };
+		BD8666491993A95800241400 /* MasterTimerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterTimerViewController.h; sourceTree = "<group>"; };
+		BD86664A1993A95800241400 /* MasterTimerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterTimerViewController.m; sourceTree = "<group>"; };
+		BD86664C1993B3D300241400 /* cancel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cancel.png; path = images/cancel.png; sourceTree = "<group>"; };
+		BD86664E1994031900241400 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		BD86FDE91918741B00F13E41 /* UltimateParkingSpotFinderApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UltimateParkingSpotFinderApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD86FDEC1918741B00F13E41 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BD86FDEE1918741B00F13E41 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BD86FDF01918741B00F13E41 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BD86FDF41918741B00F13E41 /* UltimateParkingSpotFinderApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UltimateParkingSpotFinderApp-Info.plist"; sourceTree = "<group>"; };
+		BD86FDF61918741B00F13E41 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BD86FDF81918741B00F13E41 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BD86FDFA1918741B00F13E41 /* UltimateParkingSpotFinderApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UltimateParkingSpotFinderApp-Prefix.pch"; sourceTree = "<group>"; };
+		BD86FDFB1918741B00F13E41 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BD86FDFC1918741B00F13E41 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BD86FDFF1918741C00F13E41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BD86FE011918741C00F13E41 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BD86FE021918741C00F13E41 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BD86FE041918741C00F13E41 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BD86FE0A1918741C00F13E41 /* UltimateParkingSpotFinderAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UltimateParkingSpotFinderAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD86FE0B1918741C00F13E41 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		BD86FE131918741C00F13E41 /* UltimateParkingSpotFinderAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UltimateParkingSpotFinderAppTests-Info.plist"; sourceTree = "<group>"; };
+		BD86FE151918741C00F13E41 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BD86FE171918741C00F13E41 /* UltimateParkingSpotFinderAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UltimateParkingSpotFinderAppTests.m; sourceTree = "<group>"; };
+		BD86FE2119187E2B00F13E41 /* car.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = car.png; path = images/car.png; sourceTree = "<group>"; };
+		BD86FE24191883BD00F13E41 /* locator.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = locator.png; path = images/locator.png; sourceTree = "<group>"; };
+		BD86FE25191883BD00F13E41 /* timer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = timer.png; path = images/timer.png; sourceTree = "<group>"; };
+		BD86FE281918840B00F13E41 /* TimerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimerViewController.h; sourceTree = "<group>"; };
+		BD86FE291918840B00F13E41 /* TimerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimerViewController.m; sourceTree = "<group>"; };
+		BD86FE2B191896DF00F13E41 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		BD86FE2D1919228A00F13E41 /* Annotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Annotation.h; sourceTree = "<group>"; };
+		BD86FE2E1919228A00F13E41 /* Annotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Annotation.m; sourceTree = "<group>"; };
+		BD86FE30191924F000F13E41 /* redcar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = redcar.png; path = images/redcar.png; sourceTree = "<group>"; };
+		BDCEDD691992A427006E03CE /* findmyspot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = findmyspot.png; path = images/findmyspot.png; sourceTree = "<group>"; };
+		BDCEDD6A1992A427006E03CE /* savemyspot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = savemyspot.png; path = images/savemyspot.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD86FDE61918741B00F13E41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD86664F1994031900241400 /* AudioToolbox.framework in Frameworks */,
+				BD86FE2C191896DF00F13E41 /* MapKit.framework in Frameworks */,
+				BD86FDEF1918741B00F13E41 /* CoreGraphics.framework in Frameworks */,
+				BD86FDF11918741B00F13E41 /* UIKit.framework in Frameworks */,
+				BD86FDED1918741B00F13E41 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD86FE071918741C00F13E41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD86FE0C1918741C00F13E41 /* XCTest.framework in Frameworks */,
+				BD86FE0E1918741C00F13E41 /* UIKit.framework in Frameworks */,
+				BD86FE0D1918741C00F13E41 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD2BEB8E19955A7F00E5D4BB /* icons */ = {
+			isa = PBXGroup;
+			children = (
+				BD2BEB8819955A7A00E5D4BB /* icon29.png */,
+				BD2BEB8919955A7A00E5D4BB /* icon40.png */,
+				BD2BEB8A19955A7A00E5D4BB /* icon60.png */,
+			);
+			name = icons;
+			sourceTree = "<group>";
+		};
+		BD86FDE01918741B00F13E41 = {
+			isa = PBXGroup;
+			children = (
+				BD86FDF21918741B00F13E41 /* UltimateParkingSpotFinderApp */,
+				BD86FE111918741C00F13E41 /* UltimateParkingSpotFinderAppTests */,
+				BD86FDEB1918741B00F13E41 /* Frameworks */,
+				BD86FDEA1918741B00F13E41 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BD86FDEA1918741B00F13E41 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD86FDE91918741B00F13E41 /* UltimateParkingSpotFinderApp.app */,
+				BD86FE0A1918741C00F13E41 /* UltimateParkingSpotFinderAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD86FDEB1918741B00F13E41 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BD86664E1994031900241400 /* AudioToolbox.framework */,
+				BD86FE2B191896DF00F13E41 /* MapKit.framework */,
+				BD86FDEC1918741B00F13E41 /* Foundation.framework */,
+				BD86FDEE1918741B00F13E41 /* CoreGraphics.framework */,
+				BD86FDF01918741B00F13E41 /* UIKit.framework */,
+				BD86FE0B1918741C00F13E41 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD86FDF21918741B00F13E41 /* UltimateParkingSpotFinderApp */ = {
+			isa = PBXGroup;
+			children = (
+				BD2BEB8519950B4000E5D4BB /* TimerStart.h */,
+				BD2BEB8619950B4000E5D4BB /* TimerStart.m */,
+				BD86FE2D1919228A00F13E41 /* Annotation.h */,
+				BD86FE2E1919228A00F13E41 /* Annotation.m */,
+				BD86FDFB1918741B00F13E41 /* AppDelegate.h */,
+				BD86FDFC1918741B00F13E41 /* AppDelegate.m */,
+				BD86FDFE1918741C00F13E41 /* Main.storyboard */,
+				BD8666491993A95800241400 /* MasterTimerViewController.h */,
+				BD86664A1993A95800241400 /* MasterTimerViewController.m */,
+				BD86FE281918840B00F13E41 /* TimerViewController.h */,
+				BD86FE291918840B00F13E41 /* TimerViewController.m */,
+				BD8666461992E0DC00241400 /* CountdownViewController.h */,
+				BD8666471992E0DC00241400 /* CountdownViewController.m */,
+				BD86FE011918741C00F13E41 /* ViewController.h */,
+				BD86FE021918741C00F13E41 /* ViewController.m */,
+				BD86FE041918741C00F13E41 /* Images.xcassets */,
+				BD86FDF31918741B00F13E41 /* Supporting Files */,
+			);
+			path = UltimateParkingSpotFinderApp;
+			sourceTree = "<group>";
+		};
+		BD86FDF31918741B00F13E41 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BD2BEB8E19955A7F00E5D4BB /* icons */,
+				BD86FE23191883AB00F13E41 /* images */,
+				BD86FDF41918741B00F13E41 /* UltimateParkingSpotFinderApp-Info.plist */,
+				BD86FDF51918741B00F13E41 /* InfoPlist.strings */,
+				BD86FDF81918741B00F13E41 /* main.m */,
+				BD86FDFA1918741B00F13E41 /* UltimateParkingSpotFinderApp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BD86FE111918741C00F13E41 /* UltimateParkingSpotFinderAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				BD86FE171918741C00F13E41 /* UltimateParkingSpotFinderAppTests.m */,
+				BD86FE121918741C00F13E41 /* Supporting Files */,
+			);
+			path = UltimateParkingSpotFinderAppTests;
+			sourceTree = "<group>";
+		};
+		BD86FE121918741C00F13E41 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BD86FE131918741C00F13E41 /* UltimateParkingSpotFinderAppTests-Info.plist */,
+				BD86FE141918741C00F13E41 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BD86FE23191883AB00F13E41 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				BD86664C1993B3D300241400 /* cancel.png */,
+				BD60302C1992D66400C39A6A /* starttimer.png */,
+				BDCEDD691992A427006E03CE /* findmyspot.png */,
+				BDCEDD6A1992A427006E03CE /* savemyspot.png */,
+				BD86FE30191924F000F13E41 /* redcar.png */,
+				BD86FE24191883BD00F13E41 /* locator.png */,
+				BD86FE25191883BD00F13E41 /* timer.png */,
+				BD86FE2119187E2B00F13E41 /* car.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD86FDE81918741B00F13E41 /* UltimateParkingSpotFinderApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD86FE1B1918741C00F13E41 /* Build configuration list for PBXNativeTarget "UltimateParkingSpotFinderApp" */;
+			buildPhases = (
+				BD86FDE51918741B00F13E41 /* Sources */,
+				BD86FDE61918741B00F13E41 /* Frameworks */,
+				BD86FDE71918741B00F13E41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UltimateParkingSpotFinderApp;
+			productName = UltimateParkingSpotFinderApp;
+			productReference = BD86FDE91918741B00F13E41 /* UltimateParkingSpotFinderApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BD86FE091918741C00F13E41 /* UltimateParkingSpotFinderAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD86FE1E1918741C00F13E41 /* Build configuration list for PBXNativeTarget "UltimateParkingSpotFinderAppTests" */;
+			buildPhases = (
+				BD86FE061918741C00F13E41 /* Sources */,
+				BD86FE071918741C00F13E41 /* Frameworks */,
+				BD86FE081918741C00F13E41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD86FE101918741C00F13E41 /* PBXTargetDependency */,
+			);
+			name = UltimateParkingSpotFinderAppTests;
+			productName = UltimateParkingSpotFinderAppTests;
+			productReference = BD86FE0A1918741C00F13E41 /* UltimateParkingSpotFinderAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD86FDE11918741B00F13E41 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "David LoBosco";
+				TargetAttributes = {
+					BD86FE091918741C00F13E41 = {
+						TestTargetID = BD86FDE81918741B00F13E41;
+					};
+				};
+			};
+			buildConfigurationList = BD86FDE41918741B00F13E41 /* Build configuration list for PBXProject "UltimateParkingSpotFinderApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BD86FDE01918741B00F13E41;
+			productRefGroup = BD86FDEA1918741B00F13E41 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD86FDE81918741B00F13E41 /* UltimateParkingSpotFinderApp */,
+				BD86FE091918741C00F13E41 /* UltimateParkingSpotFinderAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD86FDE71918741B00F13E41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD60302D1992D66400C39A6A /* starttimer.png in Resources */,
+				BD86FE2219187E2B00F13E41 /* car.png in Resources */,
+				BD86FE051918741C00F13E41 /* Images.xcassets in Resources */,
+				BD86FE26191883BD00F13E41 /* locator.png in Resources */,
+				BD86664D1993B3D300241400 /* cancel.png in Resources */,
+				BD2BEB8B19955A7A00E5D4BB /* icon29.png in Resources */,
+				BD2BEB8C19955A7A00E5D4BB /* icon40.png in Resources */,
+				BDCEDD6C1992A427006E03CE /* savemyspot.png in Resources */,
+				BD86FE31191924F000F13E41 /* redcar.png in Resources */,
+				BD86FDF71918741B00F13E41 /* InfoPlist.strings in Resources */,
+				BD2BEB8D19955A7A00E5D4BB /* icon60.png in Resources */,
+				BD86FE001918741C00F13E41 /* Main.storyboard in Resources */,
+				BDCEDD6B1992A427006E03CE /* findmyspot.png in Resources */,
+				BD86FE27191883BD00F13E41 /* timer.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD86FE081918741C00F13E41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD86FE161918741C00F13E41 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD86FDE51918741B00F13E41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD86664B1993A95800241400 /* MasterTimerViewController.m in Sources */,
+				BD86FE2F1919228A00F13E41 /* Annotation.m in Sources */,
+				BD86FE2A1918840B00F13E41 /* TimerViewController.m in Sources */,
+				BD86FE031918741C00F13E41 /* ViewController.m in Sources */,
+				BD86FDFD1918741B00F13E41 /* AppDelegate.m in Sources */,
+				BD8666481992E0DC00241400 /* CountdownViewController.m in Sources */,
+				BD2BEB8719950B4000E5D4BB /* TimerStart.m in Sources */,
+				BD86FDF91918741B00F13E41 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD86FE061918741C00F13E41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD86FE181918741C00F13E41 /* UltimateParkingSpotFinderAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BD86FE101918741C00F13E41 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD86FDE81918741B00F13E41 /* UltimateParkingSpotFinderApp */;
+			targetProxy = BD86FE0F1918741C00F13E41 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BD86FDF51918741B00F13E41 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD86FDF61918741B00F13E41 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BD86FDFE1918741C00F13E41 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD86FDFF1918741C00F13E41 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BD86FE141918741C00F13E41 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD86FE151918741C00F13E41 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BD86FE191918741C00F13E41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BD86FE1A1918741C00F13E41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD86FE1C1918741C00F13E41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UltimateParkingSpotFinderApp/UltimateParkingSpotFinderApp-Prefix.pch";
+				INFOPLIST_FILE = "UltimateParkingSpotFinderApp/UltimateParkingSpotFinderApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BD86FE1D1918741C00F13E41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UltimateParkingSpotFinderApp/UltimateParkingSpotFinderApp-Prefix.pch";
+				INFOPLIST_FILE = "UltimateParkingSpotFinderApp/UltimateParkingSpotFinderApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BD86FE1F1918741C00F13E41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/UltimateParkingSpotFinderApp.app/UltimateParkingSpotFinderApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UltimateParkingSpotFinderApp/UltimateParkingSpotFinderApp-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "UltimateParkingSpotFinderAppTests/UltimateParkingSpotFinderAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		BD86FE201918741C00F13E41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/UltimateParkingSpotFinderApp.app/UltimateParkingSpotFinderApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UltimateParkingSpotFinderApp/UltimateParkingSpotFinderApp-Prefix.pch";
+				INFOPLIST_FILE = "UltimateParkingSpotFinderAppTests/UltimateParkingSpotFinderAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD86FDE41918741B00F13E41 /* Build configuration list for PBXProject "UltimateParkingSpotFinderApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD86FE191918741C00F13E41 /* Debug */,
+				BD86FE1A1918741C00F13E41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD86FE1B1918741C00F13E41 /* Build configuration list for PBXNativeTarget "UltimateParkingSpotFinderApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD86FE1C1918741C00F13E41 /* Debug */,
+				BD86FE1D1918741C00F13E41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD86FE1E1918741C00F13E41 /* Build configuration list for PBXNativeTarget "UltimateParkingSpotFinderAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD86FE1F1918741C00F13E41 /* Debug */,
+				BD86FE201918741C00F13E41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD86FDE11918741B00F13E41 /* Project object */;
+}
